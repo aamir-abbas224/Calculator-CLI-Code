@@ -1,3 +1,7 @@
 # Calculator-CLI-Code
-Contains almost all type of calculation from basic to advance. Inspired by Calculator GUI on Windows OS
-Please add your own api link in Currency Convertor:)
+A command-line calculator in Python with features ranging from basic arithmetic to advanced calculations, inspired by Windows Calculator GUI.
+## Features
+- Basic arithmetic operations (add, subtract, multiply, divide)
+- Advanced calculations (trigonometry, exponentiation, length & date calculations)
+- Currency converter (requires your own API key)
+- Programmer-focused calculations
