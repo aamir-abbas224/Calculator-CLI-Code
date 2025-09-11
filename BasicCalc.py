@@ -33,8 +33,7 @@ class BasicCalculator:
     def division(self):
         if self._num2 == 0:
             raise ZeroDivisionError('Error! Cannot be divided by zero')
-        else:
-            return self._num1 / self._num2
+        return self._num1 / self._num2
         
     def power(self):
         return self._num1 ** self._num2
@@ -42,14 +41,12 @@ class BasicCalculator:
     def reciprocal(self,number):
         if number == 0:
             raise ZeroDivisionError("Error! No 0 reciprocal allowed")
-        else:
-            return 1/ number  
+        return 1/ number  
     
     def squareroot(self,number):
         if number < 0:
             raise ValueError('Only positive numbers are allowed')
-        else:
-            return np.sqrt(number)
+        return np.sqrt(number)
 
 
 if __name__ == "__main__":
@@ -100,4 +97,5 @@ if __name__ == "__main__":
             break
         else:
             print("Invalid choice. Try again.") 
+
         
